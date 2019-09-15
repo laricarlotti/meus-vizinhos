@@ -6,5 +6,15 @@ nav{
     justify-content: space-around; 
 }
 nav .menu-hamburguer{
-    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 30px;
+}
+nav .menu-hamburguer span{
+    background-color: #7d7a77;
+    height: 1px;
 }
