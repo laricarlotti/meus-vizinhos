@@ -5,16 +5,27 @@ nav{
     grid-area: nav;  
     justify-content: space-around; 
 }
-nav .menu-hamburguer{
+nav div:first-child{
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 30px;
-    justify-content: space-evenly;
-    margin: 10px;
-    width: 30px;
+    height: 30%;
+    justify-content: space-around;
+    width: 30%;
 }
-nav .menu-hamburguer span{
+nav div span{
     background-color: #7d7a77;
     height: 1px;
+    width: 40%;
+}
+nav div:nth-child(2){
+    width: 30%;
+}  
+    
+nav div:last-child{
+    align-items: center;
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    width: 30%;
 }
