@@ -1,0 +1,18 @@
+{
+  "name": "p01-meusvizinhos",
+  "version": "1.0.0",
+  "description": "projeto meus vizinhos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Larissa Carlotti",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-serve": "^1.4.0"
+  }
+}
