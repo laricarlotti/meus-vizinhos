@@ -7,17 +7,17 @@ const minifyCSS = require('gulp-csso');
 // CSS task
 function css() {
   return gulp
-    .src("./site/scss/**/*.scss")
+    .src("./app/scss/**/*.scss")
     .pipe(concat('styles.css'))
     .pipe(sass({ outputStyle: "expanded" }))
     .pipe(minifyCSS())
-    .pipe(gulp.dest("./site/css"))
+    .pipe(gulp.dest("./app/css"))
 }
 
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./site/scss/**/*.scss", css);
+  gulp.watch("./app/scss/**/*.scss", css);
   
 }
 
