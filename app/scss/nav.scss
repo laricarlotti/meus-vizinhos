@@ -1,3 +1,10 @@
-.meucaralegal {
-    font-size: 12px;
+nav{
+    align-items: center;
+    display: flex;
+    flex-flow: row, wrap;
+    grid-area: nav;  
+    justify-content: space-around; 
+}
+nav .menu-hamburguer{
+    
 }
